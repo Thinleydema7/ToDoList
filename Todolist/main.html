@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="list">
+        <div class="container">
+            <h2>Organize your time</h2>
+            <div class="tasks">
+                <h3>Tasks</h3>
+                <div class="status">
+                    <button class="filter-btn selected" data-filter="all">All Tasks</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+                
+                <input type="text" id="taskInput" placeholder="Add your task here">
+                <button class="add">ADD</button>
+            </div>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: flex;
+    height: 100vh;
+    color: white;
+    background-image: url(todo.webp);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:  rgb(244, 138, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list{
+    background-color: rgb(244, 138, 196);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10%;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+ 
+    text-align: center;
+
+
+}.hidden {
+    display: none;
+}
+
+.tasks {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: rgb(254, 254, 254);
+}
+
+.taskInput {
+    display: flex;
+    gap: 10px;
+    color: black;
+
+}
+/* style.css */
+
+/* Style the filter buttons */
+.status {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #ddd;
+}
+
+.filter-btn.selected {
+    background-color: rgb(244, 138, 196);;
+    color: white;
+}
+
+.filter-btn:active {
+    background-color: white;
+    color:  rgb(244, 138, 196);;
+    transform: translateY(2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the task list */
+#list li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+#list li.completed {
+    background-color: #e0ffe0;
+    text-decoration: line-through;
+}
+
+#list li .remove {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#list li .remove:hover {
+    background-color: #d32f2f;
+}
+
+
+button.add {
+    background-color: rgb(244, 138, 196);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    color: black;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: rgb(250, 175, 216);
+}
+
+li .delete {
+    background-color: #e93939;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li .delete:hover {
+    background-color: #c82333;
+}
+
+li .completed {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+.list{
+    color: black;
+}
+button{
+    background-color: rgb(244, 138, 196);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20%;
+
+}
